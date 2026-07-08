@@ -1,6 +1,33 @@
 
 
-.audio{
+#audio{
+    text-align: center;
     background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(164, 220, 164);
+    
 
 }
+#video{
+text-align: center;
+background-color: wheat;
+border-radius: 10px;
+box-shadow: 6px 6px 6px  black;
+
+}
+h1{
+    background-color: aqua;
+    border-radius: 10px;
+}
+#foot{
+    text-align: center;
+}
+h2{
+    background-color:burlywood;
+    border-radius: 10px;
+}
+.one{
+    text-shadow: 4px 5px 5px rgb(60, 124, 203);
+    
+}
+

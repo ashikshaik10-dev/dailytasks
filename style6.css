@@ -1,0 +1,31 @@
+body{
+
+
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.image{
+    text-align: center;
+}
+.head{
+ background-color: aquamarine;
+ border-radius: 10px;
+ box-shadow: 5px 3px 4px black;
+}
+.image{
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 10px 3px 4px grey;
+}
+#foot{
+    text-align: center;
+    color: blue;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.video{
+    text-align: center;
+    background-color: bisque;
+    box-shadow: 5px 3px 4px black;
+    border-radius: 10px;
+}
