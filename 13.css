@@ -1,0 +1,105 @@
+body{
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+
+.nav{
+    text-decoration: none;
+    text-align: center;
+      
+    
+    
+  
+}
+a{
+    text-decoration: none;
+    
+}
+#admisssion{
+    text-align: center;
+    
+}
+button:hover{
+    background-color: rgb(219, 134, 238);
+   
+}
+button{
+    border-radius: 10px;
+
+}
+nav{
+  display: flex;
+    justify-content: space-around;
+}
+
+a:hover{
+    color: rgb(226, 234, 234);
+    cursor: pointer;
+}
+iframe{
+    text-align: center;
+}
+.img{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 15px 10px black;
+    margin: 50px;
+}
+img:hover{
+    cursor: pointer;
+}
+.emoji{
+   color: #EEAECA;
+    display: flex;
+    justify-content: space-around;
+}
+marquee{
+    background-color: lightblue;
+    border-radius: 10px;
+    color: rgb(34, 34, 29);
+}
+#home{
+    text-align: center;
+}
+#faculty{
+text-align: center;
+
+}
+#about{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+#phone{
+    background-color: bisque;
+    border-radius: 10px;
+    color: blueviolet;
+}
+#name{
+    background-color: bisque;
+    border-radius: 10px;
+    color: blueviolet;
+}
+#email{
+    background-color: bisque;
+    border-radius: 10px;
+    color: blueviolet;
+}
+#course{
+    background-color: bisque;
+    border-radius: 10px;
+    color: blueviolet;
+}
+#degree{
+    background-color: bisque;
+    border-radius: 10px;
+    color: blueviolet;
+}
+#frame{
+    border-radius: 10px;
+}

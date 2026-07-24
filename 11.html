@@ -56,7 +56,7 @@
     <form>
 
         <label for="name">Full Name:</label><br>
-        <input type="text" placeholder="Enter your Full Name">
+        <input type="text" placeholder="Enter your Full Name" pattern="[A-Za-z]+" required>
         <br><br>
 
         <label for="email">Email:</label><br>
@@ -71,9 +71,111 @@
         <input type="password" placeholder="Enter your Password">
         <br><br>
 
+        <label for="Mobile number"> Mobile Number</label><br>
+        <input type="tel" pattern="[0-9] {10}"><br><br>
+
+        <label for="Date">Date</label><br>
+        <input type="date"><br><br>
+        <textarea name="feedback" rows="10" cols="20">feedback</textarea>
+
+        <label for="Gender">Gender</label><br><br>
+
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">others
+
+
+        <br><br>
+
+        <label for="skills">Skills</label>
+        <input type="checkbox" checked>Java
+        <input type="checkbox">javascript
+        <input type="checkbox">python
+        <br><br>
+
+        <label for="Location">Location</label>
+        <select>
+            <option value="select">select</option>
+            <option value="hyd">hyd</option>
+            <option value="bglr">bglr</option>
+            <option value="chennai">chennai</option>
+        </select>
+        <br><br>
+
+        <label for="">Upload Resume</label>
+        <input type="file"><br><br>
+
         <input type="submit" value="Register">
 
     </form>
+
+
+
+
+    <hr>
+    <br><br>
+
+
+
+
+    <input type="text" required placeholder="ur name" value="ashik" maxlength="20"> for names use the maz length
+    <input type="tel" min="10" max="20"> for numbers use the min and max
+    <input type="checkbox" value="gender">male
+    for dropdown selected
+
+
+
+
+
+    <table border="2">
+        <tr>
+            <th colspan="5">ashik</th>
+            <th rowspan="6">shaik</th>
+
+        </tr>
+        <tr>
+            <td>ashik</td>
+            <td>ashik</td>
+            <td>hi</td>
+            <td>hi</td>
+            <td>hi</td>
+
+        </tr>
+        <tr>
+            <td>hlo</td>
+        </tr>
+        <tr>
+            <td>hlo</td>
+        </tr>
+        <tr>
+            <td>hlo</td>
+        </tr>
+        <tr>
+            <td>hlo</td>
+        </tr>
+        <tr>
+            <td>hlo</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
